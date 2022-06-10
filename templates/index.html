@@ -1,0 +1,8 @@
+<form method="POST" action="checkroom">
+    {% csrf_token %}
+    <label>Room: </label><br>
+    <input type="text" name="roomname" id="roomname"><br><br>
+    <label>Username: </label><br>
+    <input type="text" name="username" id="username"><br><br>
+    <input type="submit" value="Submit">
+</form>
